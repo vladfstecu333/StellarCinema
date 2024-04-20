@@ -17,7 +17,7 @@ function Eveniment(props) {
                     </div>
                     <h1>{props.titlu}</h1>
                     <p>
-                    A chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine with a former student in order to secure his family's future.
+                        {props.detalii}
                     </p>
                     <div className="buttons">
                         <button type="button" className="btn btn-dark">Află mai multe</button>
