@@ -1,0 +1,11 @@
+body {
+    background: white !important;
+    color: black !important;
+}
+
+#rezervare {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

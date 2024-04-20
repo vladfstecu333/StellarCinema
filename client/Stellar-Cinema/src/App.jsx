@@ -6,14 +6,10 @@ import { useState } from 'react'
 import IntroPage from './IntroPage'
 
 import Evenimente from "./pages/Evenimente"
+import Rezervare from './pages/Rezervare'
 
 function App() {
-  return (
-    <>
-      <Evenimente />
-      <IntroPage />
-    </>
-  )
+  return (<Rezervare />)
 }
 
 export default App
