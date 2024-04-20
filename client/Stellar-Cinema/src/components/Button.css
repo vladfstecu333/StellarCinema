@@ -1,0 +1,21 @@
+
+#buton-intro{
+    background: rgb(242,151,191);
+    background: radial-gradient(circle, rgba(242,151,191,1) 0%, rgba(80,140,212,1) 100%);
+    color: black;
+    padding:1vh;
+    position:relative;
+    display:flex;
+    margin:auto;
+    border-radius: 10px;
+    font-size: 4vh;
+    border-color: black;
+
+}
+
+#buton-intro:hover{
+    transform: translateY(5px);
+    transition: 0.5s;
+    box-shadow: #B1946B;
+}
+

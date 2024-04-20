@@ -3,7 +3,7 @@ import "bootstrap/dist/js/bootstrap.bundle"
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { useState } from 'react'
-import './App.css'
+import IntroPage from './IntroPage'
 
 import Evenimente from "./pages/Evenimente"
 
@@ -11,6 +11,7 @@ function App() {
   return (
     <>
       <Evenimente />
+      <IntroPage />
     </>
   )
 }
