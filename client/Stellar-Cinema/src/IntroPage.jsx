@@ -4,12 +4,10 @@ import './IntroPage.css'
 
 const IntroPage = () => {
     return (
-        <div className='hero-image'> 
-        <div className = 'hero-text'>
-            <h1>Stellar Cinema</h1>
-            <Button />
+        <div class='buton-text'>
+            <h1 id = 'text-intro'>Stellar Cinema</h1>
+            <Button>Spre evenimente</Button>
         </div>
-         </div>
     )
 }
 export default IntroPage
