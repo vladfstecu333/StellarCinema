@@ -1,0 +1,50 @@
+.scaun {
+    aspect-ratio: 1;
+    width: 3vw;
+    margin: 6px;
+}
+
+.scaun-inactiv {
+    opacity: 0;
+}
+
+.scaun-inactiv:hover {
+    cursor: inherit !important;
+}
+
+.scena {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid gray;
+    border-radius: 12px;
+
+    min-width: 55vw;
+    aspect-ratio: 2/1;
+    height: auto;
+}
+
+.focus:hover {
+    filter: drop-shadow(0px 0px 20px orangered);
+}
+
+.focus {
+    width: 65%;
+    height: 5%;
+    border-radius: 12px;
+    background-color: gray;
+    margin-bottom: 12px;
+
+    color: white;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    filter: none;
+    transition: filter 0.2s linear;
+    -webkit-transition: filter 0.2s linear;
+}
