@@ -6,9 +6,11 @@ import Footer from '../components/Footer'
 export default function IntroPage() {
     return (
     <>
-        <Header/>
-        <Content/>
-        <Footer/>
+        <div className="introducere">
+            <Header/>
+            <Content/>
+            <Footer/>
+        </div>
     </>
     );
 }
