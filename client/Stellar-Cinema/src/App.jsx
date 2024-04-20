@@ -3,6 +3,7 @@ import { useState } from 'react'
 import IntroPage from './pages/IntroPage'
 import Evenimente from "./pages/Evenimente"
 import Rezervare from './pages/Rezervare'
+import PaginaCheckout from './pages/PaginaCheckout'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path='/' element={<IntroPage />} />
         <Route path='events' element={<Evenimente />} />
         <Route path='events/book' element={<Rezervare />} />
+        <Route path='/succes' element={<PaginaCheckout />} />
       </Routes>
     </Router>
     </>

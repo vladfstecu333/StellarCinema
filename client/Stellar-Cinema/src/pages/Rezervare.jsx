@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from "react-router-dom";
 
 import Scena from '../components/Scena'
 import Bilet from '../components/Bilet'
@@ -46,9 +47,9 @@ function Rezervare() {
                 {
                     (selectedSeats != 0) ?
                     <>
-                        <button type="button" className="btn btn-success" onClick={() => {
-                            alert(`Comanda a fost facuta cu succes`)
-                        }}>Checkout</button>
+                    <Link to="/succes">
+                        <button type="button" className="btn btn-success">Checkout</button>
+                    </Link>
                         <DiscountRoulette />
                     </> : <></>
                 }
