@@ -1,0 +1,22 @@
+body{
+    background-image: url(../assets/images/first-page-background.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(2.5px);
+    min-width: 100vw;
+    height: 100vh;
+}
+
+ #text-intro{
+    font-size: 500%;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    margin-top: -5vh;
+    margin-bottom: 5vh;
+ }
+
+ .buton-text{
+    margin-top:6vh;
+ }

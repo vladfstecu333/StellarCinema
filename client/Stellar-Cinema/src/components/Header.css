@@ -1,0 +1,33 @@
+.header-left {
+    width: 100%;
+    display: flex;
+}
+
+#logo {
+    width: 6vw;
+    margin-top: 1vh;
+}
+
+#home{
+padding-top: 3.5vh;
+padding-left: 0.7vw;
+color:white;
+padding-right: 50%;
+}
+
+#home:hover {
+    color: antiquewhite;
+    text-decoration: underline;
+}
+
+.right-text{
+    padding-top: 3.5vh;
+    padding-left: 1.5vw;
+    color:white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.right-text:hover {
+    color: antiquewhite;
+    text-decoration: underline;
+}

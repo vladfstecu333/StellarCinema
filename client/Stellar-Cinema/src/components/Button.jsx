@@ -1,11 +1,15 @@
 import React from 'react'
 import './Button.css'
-
+import { Link } from 'react-router-dom';
 
 const Button = ({children}) => {
     return (
-        <button type="button" id='buton-intro'
-        >{children}</button>
+        <div>
+            <Link to='/events' style={{ textDecoration: 'none'}}>
+                <button type="button" id='buton-intro'
+                >{children}</button>
+            </Link>
+        </div>   
     )
 }
 

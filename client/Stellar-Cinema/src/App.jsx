@@ -1,17 +1,17 @@
-import 'bootstrap/dist/css/bootstrap.css'
-import "bootstrap/dist/js/bootstrap.bundle"
-
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { useState } from 'react'
-import IntroPage from './IntroPage'
-
+import IntroPage from './pages/IntroPage'
 import Evenimente from "./pages/Evenimente"
 
 function App() {
   return (
     <>
-      <Evenimente />
-      <IntroPage />
+    <Router>
+      <Routes>
+        <Route path='/' element={<IntroPage />} />
+        <Route path='events' element={<Evenimente />} />
+      </Routes>
+    </Router>
     </>
   )
 }

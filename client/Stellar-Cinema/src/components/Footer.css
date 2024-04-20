@@ -1,0 +1,25 @@
+.footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: inherit !important;
+    color: inherit !important;
+}
+
+.infos {
+    padding: 0.5em;
+    color:white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.social {
+    gap: 1vw;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
