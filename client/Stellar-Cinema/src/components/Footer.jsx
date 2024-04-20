@@ -16,8 +16,12 @@ const Footer = () => {
         <FaThreads/>
       </div>
         
-      <span className='infos'>parter, Șoseaua Alexandriei 3-5, București 052034</span>
-      <span className='infos'>Telefon: 0722 si-ale tale buze moi</span>
+      <span className='infos'>
+        <a href='https://maps.app.goo.gl/FmoTvDAc2M7h8zL88'>
+          parter, Șoseaua Alexandriei 3-5, București 052034
+        </a>
+        </span>
+      <span className='infos'>Telefon: 0722 și-ale tale buze moi</span>
 
     </div>
   )

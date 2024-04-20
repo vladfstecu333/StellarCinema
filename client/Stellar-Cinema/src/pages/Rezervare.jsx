@@ -2,6 +2,7 @@ import { useState } from 'react'
 
 import Scena from '../components/Scena'
 import Bilet from '../components/Bilet'
+import DiscountRoulette from '../components/ruletawow'
 
 import './Rezervare.css'
 
@@ -30,7 +31,7 @@ function Rezervare() {
 
     return (<>
         <div id="continut">
-            <div id="rezervare">
+            <div id="rezervare" className="introducere">
                 <h1>Alege-ti locul</h1>
                 <Scena 
                     cols={13} 
@@ -42,9 +43,15 @@ function Rezervare() {
             <div id="cos">
                 <h1>Coș cumpărături</h1>
                 {bilete}
-                <button type="button" className="btn btn-success" onClick={() => {
-                    window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-                }}>Checkout</button>
+                {
+                    (selectedSeats != 0) ?
+                    <>
+                        <button type="button" className="btn btn-success" onClick={() => {
+                            alert(`Comanda a fost facuta cu succes`)
+                        }}>Checkout</button>
+                        <DiscountRoulette />
+                    </> : <></>
+                }
             </div>
         </div>
     </>)

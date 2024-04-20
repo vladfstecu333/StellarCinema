@@ -20,8 +20,12 @@ function Eveniment(props) {
                         {props.detalii}
                     </p>
                     <div className="buttons">
-                        <button type="button" className="btn btn-dark">Află mai multe</button>
+                        <Link to="https://www.youtube.com/watch?v=2-H7DVE8_PM">
+                            <button type="button" className="btn btn-dark">Află mai multe</button>
+                        </Link>
+                        <Link to="book">
                         <button type="button" className="btn btn-primary">Rezervă</button>
+                        </Link>
                     </div>
                 </div>
             </div>

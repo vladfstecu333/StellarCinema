@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path='/' element={<IntroPage />} />
         <Route path='events' element={<Evenimente />} />
-        <Route path='book' element={<Rezervare />} />
+        <Route path='events/book' element={<Rezervare />} />
       </Routes>
     </Router>
     </>

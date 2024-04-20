@@ -3,9 +3,11 @@
     position: relative;
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
-    backdrop-filter: blur(2.5px);
-    min-width: 100vw;
+    backdrop-filter: blur(3px);
+    /* min-width: 100vw; */
     height: 100vh;
+
+    object-fit: contain;
 }
 
  #text-intro{

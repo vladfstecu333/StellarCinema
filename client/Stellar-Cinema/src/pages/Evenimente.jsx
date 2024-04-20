@@ -11,9 +11,9 @@ function Evenimente() {
     return (
         <>
             <div className="introducere" id="introducere-evenimente">
-                <h1>Rezerva-ti acum biletul</h1>
-                <button type="button" className="btn btn-primary" onClick={() => window.location.hash = "#ziua-luni"}>
-                    Da-i tata
+                <h1>Rezervă-ți acum biletul</h1>
+                <button type="button" className="btn btn-primary" id="buton-vezi-evenimente" onClick={() => window.location.hash = "#ziua-luni"}>
+                    Da-i tata <i className="bi bi-caret-down"></i>
                 </button>
             </div>
             <div id="pagina-evenimente">

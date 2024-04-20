@@ -9,6 +9,16 @@
     color: white;
 }
 
+#pagina-evenimente {
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #introducere-evenimente {
     display: flex;
     flex-direction: column;
@@ -16,4 +26,9 @@
     align-items: center;
     color: white;
     text-shadow: 10px 10px 10px black;
+}
+
+#buton-vezi-evenimente {
+    width: 30%;
+    height: 10%;
 }
