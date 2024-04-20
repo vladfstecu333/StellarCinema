@@ -9,7 +9,7 @@ import Evenimente from "./pages/Evenimente"
 import Rezervare from './pages/Rezervare'
 
 function App() {
-  return (<Rezervare />)
+  return (<Evenimente />)
 }
 
 export default App

@@ -9,6 +9,23 @@
     gap: 18px;
 }
 
+.container .zi {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.container .zi i {
+    transition: text-shadow 0.2s;
+}
+
+.container .zi i:hover {
+    color: black;
+    text-shadow: 0px 0px 10px black;
+}
+
+
 .evenimente .rand {
     width: 100%;
 
