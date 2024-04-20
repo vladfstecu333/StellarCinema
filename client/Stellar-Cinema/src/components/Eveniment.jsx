@@ -8,18 +8,16 @@ function Eveniment(props) {
     return (
         <>
             <div className="eveniment">
-                <div className="left">
-                    <img src={props.cover} alt="" />
-                </div>
+                <img src={props.cover} alt="" />
                 <div className="right">
                     <div className="details">
-                        <div><i class="bi bi-geo-alt"></i> {props.loc}</div>
-                        <div><i class="bi bi-clock"></i> {props.ora}</div>
-                        <div><i class="bi bi-hourglass-bottom"></i>{props.durata}min</div>
+                        <div><i className="bi bi-geo-alt"></i> {props.loc}</div>
+                        <div><i className="bi bi-clock"></i> {props.ora}</div>
+                        <div><i className="bi bi-hourglass-bottom"></i>{props.durata}min</div>
                     </div>
                     <h1>{props.titlu}</h1>
                     <p>
-                     A chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine with a former student in order to secure his family's future.
+                    A chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine with a former student in order to secure his family's future.
                     </p>
                     <div className="buttons">
                         <button type="button" className="btn btn-dark">Află mai multe</button>

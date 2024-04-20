@@ -5,11 +5,13 @@ import { useState } from 'react'
 import './Evenimente.css'
 
 import Eveniment from '../components/Eveniment'
+import ListaEvenimente from '../components/ListaEvenimente'
 
 function Evenimente() {
     return (
         <>
-            <div className="container text-center">
+            <ListaEvenimente zi="luni"/>
+            {/* <div className="container text-center">
                 
                 <div className="row justify-content-center">
                     <div className="col">
@@ -34,7 +36,7 @@ function Evenimente() {
                         />
                     </div>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }
