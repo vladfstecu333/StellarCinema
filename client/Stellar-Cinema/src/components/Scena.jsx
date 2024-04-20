@@ -34,6 +34,9 @@ function Scena(props) {
                 else
                     return (itm == 1) ? 2 : 1
             }))
+
+            if(props.onSeatSelected)
+                props.onSeatSelected(i, selectedCount)
         }
     }
 
