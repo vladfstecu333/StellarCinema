@@ -9,10 +9,10 @@
 }
 
 #home{
-padding-top: 3.5vh;
-padding-left: 0.7vw;
-color:white;
-padding-right: 50%;
+    padding-top: 3.5vh;
+    padding-left: 0.7vw;
+    color:white;
+    padding-right: 50%;
 }
 
 #home:hover {

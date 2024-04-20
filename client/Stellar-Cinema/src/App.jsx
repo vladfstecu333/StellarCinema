@@ -11,6 +11,7 @@ function App() {
       <Routes>
         <Route path='/' element={<IntroPage />} />
         <Route path='events' element={<Evenimente />} />
+        <Route path='book' element={<Rezervare />} />
       </Routes>
     </Router>
     </>
