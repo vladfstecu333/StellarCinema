@@ -24,6 +24,12 @@
     min-width: 55vw;
     aspect-ratio: 2/1;
     height: auto;
+
+    background-color: white;
+}
+
+#rezervare {
+    color: white;
 }
 
 .focus:hover {

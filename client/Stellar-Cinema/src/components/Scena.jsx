@@ -57,19 +57,21 @@ function Scena(props) {
     
 
     return (<>
-        <h5>{textSelectate}</h5>
-        <div className="scena">
-            <div className="focus">Scena</div>
-            <div className="scaune">
-                {
-                    randuri.map((rand, i) => {
-                        return (
-                            <div className="rand">
-                                {rand}
-                            </div>
-                        )
-                    })
-                }
+        <div className="alegere-locuri">
+            <h5>{textSelectate}</h5>
+            <div className="scena">
+                <div className="focus">Scena</div>
+                <div className="scaune">
+                    {
+                        randuri.map((rand, i) => {
+                            return (
+                                <div className="rand">
+                                    {rand}
+                                </div>
+                            )
+                        })
+                    }
+                </div>
             </div>
         </div>
     </>)
